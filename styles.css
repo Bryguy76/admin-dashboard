@@ -3,6 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+img {
+  height: 30px;
+  cursor: pointer;
+}
+
 body {
   display: grid;
   grid-template-columns: 1fr 4fr;
