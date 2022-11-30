@@ -79,7 +79,7 @@ button {
 }
 .sidebar-grid-container {
   display: grid;
-  grid-template-rows: repeat(10, 1fr);
+  grid-template-rows: repeat(11, 1fr);
   margin-top: 2rem;
   margin-left: 1rem;
   gap: 1rem;
@@ -102,7 +102,13 @@ button {
 }
 
 #settings {
-  grid-row: 9/10;
+  grid-row: 8;
+}
+#support {
+  grid-row: 9;
+}
+#privacy {
+  grid-row: 10;
 }
 
 article {
